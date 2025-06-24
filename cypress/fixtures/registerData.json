@@ -1,0 +1,26 @@
+{
+  "validUser": {
+    "username": "testuser",
+    "password": "SecurePass123!",
+    "passwordConfirm": "SecurePass123!"
+  },
+  "invalidUsers": {
+    "emptyUsername": {
+      "username": "",
+      "error": "Имя пользователя обязательно"
+    },
+    "spacesOnlyUsername": {
+      "username": "     ",
+      "error": "Поле не должно состоять только из пробелов"
+    },
+    "invalidEmail": {
+      "email": "invalid-email",
+      "error": "Неверный формат данных. Введите e-mail в формате xxx@xx.xx"
+    },
+    "passwordMismatch": {
+      "password": "Pass123!",
+      "passwordConfirm": "DifferentPass123!",
+      "error": "Пароли не совпадают. Пожалуйста, повторите ввод."
+    }
+  }
+}
