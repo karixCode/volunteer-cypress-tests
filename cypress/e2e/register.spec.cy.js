@@ -16,11 +16,12 @@ describe('Регистрация пользователя', () => {
         const timestamp = Date.now();
         const email = `testuser+${timestamp}@example.com`; // Уникальный email
 
-        cy.log('Заполнение полей')
+        cy.log('Заполнение полей');
         cy.get('input').eq(0).type(testData.validUser.username);
         cy.get('input').eq(1).type(email);
         cy.get('input').eq(2).type(testData.validUser.password);
         cy.get('input').eq(3).type(testData.validUser.passwordConfirm);
+
         cy.get('.form__button').click();
 
         cy.url().should('include', '/email-confirm');

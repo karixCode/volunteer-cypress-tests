@@ -1,0 +1,19 @@
+{
+  "user": {
+    "email": "eivanov200606@mail.ru",
+    "password": "asdASD!"
+  },
+  "validOrganization": {
+    "category": "Благотворительность",
+    "phone": "+79991234567",
+    "address": "ул. Тестовая, 123",
+    "description": "Тестовое описание организации"
+  },
+  "validationErrors": {
+    "emptyName": "Название организации обязательно",
+    "invalidEmail": "Неверный формат данных. Введите e-mail в формате xxx@xx.xx",
+    "noSocials": "Требуется хотя бы одна ссылка на VK или Telegram",
+    "invalidSocial": "Введите корректную ссылку",
+    "noCategory": "Выберите хотя бы одну сферу деятельности"
+  }
+}
